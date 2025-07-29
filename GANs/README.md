@@ -1,7 +1,7 @@
 # GANs  
 Contains all my GAN-related projects.</br></br>
 
-## 1. Simple GAN  
+# 1. Simple GAN  
 <table>
   <tr>
     <th><h2>MNIST</h2></th>
