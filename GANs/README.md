@@ -12,7 +12,9 @@ Contains all my GAN-related projects.</br></br>
     <td><img src="assests/SimpleGAN_Result.JPG" width="400"/></td>
   </tr>
 </table>
-Basic GAN implementation where both the generator and discriminator use simple neural networks.
+<ul>
+  <li>Basic GAN implementation where both the generator and discriminator use simple neural networks.</li>
+</ul>
 
 ## 2. DCGAN  
 <table>
@@ -25,5 +27,7 @@ Basic GAN implementation where both the generator and discriminator use simple n
     <td><img src="assests/DCGAN_Result.png" width="400"/></td>
   </tr>
 </table>
-A GAN implementation where the generator uses transposed convolutions (ConvTranspose2d) and the discriminator uses standard convolutions (Conv2d).
-
+<ul>
+  <li>A GAN implementation where the generator uses transposed convolutions (ConvTranspose2d) and the discriminator uses standard convolutions (Conv2d).</li>
+  <li>According to the results, the model is unstable and experiences mode collapse, where the same class is always produced.</li>
+</ul>
