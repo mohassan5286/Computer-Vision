@@ -19,7 +19,7 @@ Contains all my GAN-related projects.</br></br>
 ## 2. DCGAN  
 <table>
   <tr>
-    <th><h2>MNIST</h2></th>
+    <th><h2>Fashion MNIST</h2></th>
     <th><h2>DCGAN</h2></th>
   </tr>
   <tr>
