@@ -28,6 +28,6 @@ Contains all my GAN-related projects.</br></br>
   </tr>
 </table>
 <ul>
-  <li>A GAN implementation where the generator uses transposed convolutions (ConvTranspose2d) and the discriminator uses standard convolutions (Conv2d).</li>
-  <li>According to the results, the model is unstable and experiences mode collapse, where the same class is always produced.</li>
+  <li>A GAN using CNN where the generator upsamples (ConvTranspose2d) and the discriminator downsamples (Conv2d).</li>
+  <li>The model is unstable and shows mode collapse, producing the same class repeatedly.</li>
 </ul>
