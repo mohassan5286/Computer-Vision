@@ -53,8 +53,7 @@ Contains all my GAN-related projects.</br></br>
 </table>
 
 <ul>
-  <li>A GAN using CNN where the generator upsamples (ConvTranspose2d) and the discriminator downsamples (Conv2d).</li>
-  <li>Use Wasserstein loss which stabilizes training.</li>
+  <li>Same as DCGAN, but uses Wasserstein loss instead which stabilizes training</li>
   <li>WGAN-GP use gradient penalty instead of weight cliping to penalize large weights.</li>
   <li>Conditional WGAN-GP guides generation with class labels, reducing mode collapse.</li>
   <li><strong>Note:</strong> Results may look worse than previous models because this was trained for only 25 epochs instead of 100.</li>
