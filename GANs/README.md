@@ -59,4 +59,27 @@ Contains all my GAN-related projects.</br></br>
   <li><strong>Note:</strong> Results may look worse than previous models because this was trained for only 25 epochs instead of 100.</li>
 </ul>
 
+## 4. Pix2Pix GAN  
+<table>
+  <tr>
+    <th><h2>Input</h2></th>
+    <th><h2>Result</h2></th>
+    <th><h2>Ground Truth</h2></th>
+  </tr>
+  <tr>
+    <td><img src="assets/Pix2PixGAN_Input_1.JPG" width="400"/></td>
+    <td><img src="assets/Pix2PixGAN_Result_1.JPG" width="400"/></td>
+    <td><img src="assets/Pix2PixGAN_Ground-Truth_1.JPG" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="assets/Pix2PixGAN_Input_2.JPG" width="400"/></td>
+    <td><img src="assets/Pix2PixGAN_Result_2.JPG" width="400"/></td>
+    <td><img src="assets/Pix2PixGAN_Ground-Truth_2.JPG" width="400"/></td>
+  </tr>
+</table>
 
+<ul>
+  <li>Generator: U-Net architecture that maps input images to output images.</li>
+  <li>Discriminator: PatchGAN which classifies each patch of the image as real or fake instead of the whole image.</li>
+  <li>Loss: Combination of adversarial loss and L1 loss. Adversarial loss encourages realism, while L1 loss ensures the output is structurally similar to the target.</li>
+</ul>
