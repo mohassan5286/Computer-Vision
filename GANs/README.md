@@ -67,19 +67,19 @@ Contains all my GAN-related projects.</br></br>
     <th><h2>Ground Truth</h2></th>
   </tr>
   <tr>
-    <td><img src="assets/Pix2PixGAN_Input_1.JPG" width="400"/></td>
-    <td><img src="assets/Pix2PixGAN_Result_1.JPG" width="400"/></td>
-    <td><img src="assets/Pix2PixGAN_Ground-Truth_1.JPG" width="400"/></td>
+    <td><img src="assests/Pix2PixGAN_Input_1.JPG" width="150"/></td>
+    <td><img src="assests/Pix2PixGAN_Result_1.JPG" width="150"/></td>
+    <td><img src="assests/Pix2PixGAN_Ground-Truth_1.JPG" width="150"/></td>
   </tr>
   <tr>
-    <td><img src="assets/Pix2PixGAN_Input_2.JPG" width="400"/></td>
-    <td><img src="assets/Pix2PixGAN_Result_2.JPG" width="400"/></td>
-    <td><img src="assets/Pix2PixGAN_Ground-Truth_2.JPG" width="400"/></td>
+    <td><img src="assests/Pix2PixGAN_Input_2.png" width="150"/></td>
+    <td><img src="assests/Pix2PixGAN_Result_2.png" width="150"/></td>
+    <td><img src="assests/Pix2PixGAN_Ground-Truth_2.png" width="150"/></td>
   </tr>
 </table>
 
 <ul>
-  <li>Generator: U-Net architecture that maps input images to output images.</li>
-  <li>Discriminator: PatchGAN which classifies each patch of the image as real or fake instead of the whole image.</li>
-  <li>Loss: Combination of adversarial loss and L1 loss. Adversarial loss encourages realism, while L1 loss ensures the output is structurally similar to the target.</li>
+  <li>Generator: U-Net for mapping input to output images.</li>
+  <li>Discriminator: PatchGAN that classify each image patche instead of the whole image.</li>
+  <li>Loss: Adversarial (realism) + L1 (structural similarity).</li>
 </ul>
