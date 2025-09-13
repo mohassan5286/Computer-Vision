@@ -80,6 +80,39 @@ Contains all my GAN-related projects.</br></br>
 
 <ul>
   <li>Generator: U-Net for mapping input to output images.</li>
-  <li>Discriminator: PatchGAN that classify each image patche instead of the whole image.</li>
+  <li>Discriminator: PatchGAN that classify each image patch instead of the whole image.</li>
   <li>Loss: Adversarial (realism) + L1 (structural similarity).</li>
+</ul>
+
+## 5. Cycle GAN  
+<table>
+  <tr>
+    <th><h2>Input Winter</h2></th>
+    <th><h2>Result Summer</h2></th>
+    <th><h2>Reconstructed Winter</h2></th>
+  </tr>
+  <tr>
+    <td><img src="assests/Winter_Input.png" width="250"/></td>
+    <td><img src="assests/Fake_Summer.png" width="250"/></td>
+    <td><img src="assests/Winter_Reconstructed.png" width="250"/></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th><h2>Input Summer</h2></th>
+    <th><h2>Result Winter</h2></th>
+    <th><h2>Reconstructed Summer</h2></th>
+  </tr>
+  <tr>
+    <td><img src="assests/Summer_Input.png" width="250"/></td>
+    <td><img src="assests/Fake_Winter.png" width="250"/></td>
+    <td><img src="assests/Summer_Reconstructed.png" width="250"/></td>
+  </tr>
+</table>
+
+<ul>
+  <li>Generator: 2 Generators consists of Downsampling → Residual Blocks → Upsampling</li>
+  <li>Discriminator: 2 Discriminators consists of PatchGAN that classify each image patch instead of the whole image.</li>
+  <li>Loss: Adversarial + Cycle (Reversible) + identity (Preserve)</li>
 </ul>
